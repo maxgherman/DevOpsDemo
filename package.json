@@ -1,0 +1,23 @@
+{
+  "name": "DevOpsDemo",
+  "version": "0.0.1",
+  "description": "Azure DevOps Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxgherman/DevOpsDemo.git"
+  },
+  "author": "Max Gherman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxgherman/DevOpsDemo/issues"
+  },
+  "homepage": "https://github.com/maxgherman/DevOpsDemo",
+  "dependencies": {
+    "express": "~4.8.5",
+    "express.io": "~1.1.13"
+  }
+}
