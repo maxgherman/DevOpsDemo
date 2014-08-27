@@ -11,4 +11,4 @@ app.io.route('type', function(req) {
 })
 
 
-app.listen(1234);
+app.listen(80);
