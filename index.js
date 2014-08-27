@@ -1,14 +1,14 @@
 var express = require('express.io');
-var app = express().http().io()
+var app = express().http().io();
+
+app.configure(function(){
+    app.use(express.static(__dirname + '/public'));
+});
 
 // Broadcast all draw clicks.
-app.io.route('drawClick', function(req) {
-    req.io.broadcast('draw', req.data)
+app.io.route('type', function(req) {
+    req.io.broadcast('update', req.data)
 })
 
-// Send client html.
-app.get('/', function(req, res) {
-    res.sendfile(__dirname + '/client.html')
-})
 
-app.listen(80);
+app.listen(1234);
