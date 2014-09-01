@@ -1,0 +1,26 @@
+
+.user-text {
+    align-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.user-text > input {
+    width: 400px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.fishtank > .header {
+    align-content: center;
+    text-align: center;
+    position: fixed;
+    width: inherit;
+    top: 90px;
+}
+
+.fishtank > .header > .text {
+    font-size: 110px;
+}
+
